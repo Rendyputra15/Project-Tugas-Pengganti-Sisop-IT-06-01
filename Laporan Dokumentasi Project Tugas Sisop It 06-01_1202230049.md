@@ -17,12 +17,12 @@
 ##  Dokumentasi Tampilan Menu
 
 ### 1. Tampilan Utama Menu  
-![Tampilan Utama](https://github.com/user-attachments/assets/56c4fce5-303b-4920-9a22-66d7865354aa)
+![Tampilan Utama](https://github.com/user-attachments/assets/efaa4f54-0872-4bc6-b36a-bbf03f477a84)
 
 ---
 
 ### 2. Tampilan Menu 1 - Greeting User  
-![Greeting User](https://github.com/user-attachments/assets/71130c7d-38a3-431e-a64e-ba5585fabb90)
+![Greeting User](https://github.com/user-attachments/assets/ca1aa9ba-f8ef-4ef2-a85a-77fded45b795)
 
 ---
 
@@ -32,21 +32,27 @@
 ---
 
 ### 4. Tampilan Menu 3 - Detail OS  
-![Detail OS](https://github.com/user-attachments/assets/c85c6f87-2bba-47de-b593-a7d78edd660c)
+![Detail OS](https://github.com/user-attachments/assets/bbd81609-9f06-4fc6-85bc-3856ce0bfba8)
 
 ---
 
 ### 5. Tampilan Menu 4 - Waktu Install Pertama OS  
-![Waktu Install OS](https://github.com/user-attachments/assets/f3f15b46-94fa-4b67-a894-f3d0d2c9a43c)
+![Waktu Install OS](https://github.com/user-attachments/assets/d3da1afa-bbc3-4e03-93d7-73f8a3f4c960)
 
 ---
 
 ### 6. Tampilan Menu 5 - Informasi User  
-![Informasi User](https://github.com/user-attachments/assets/e8834310-47be-4979-8ca5-cb71518d55ea)
+![Informasi User](https://github.com/user-attachments/assets/5cb19c1e-e6f4-42f0-8eda-853ac93f82fe)
 
 ---
 
 ### 7. Tampilan Saat Keluar Menu  
-![Keluar Menu](https://github.com/user-attachments/assets/4af2cd4d-03ad-4f05-a757-f5b1bda37839)
+![Keluar Menu]![keluar](https://github.com/user-attachments/assets/46452158-f503-40ed-a1ef-983e79d82822)
 
 ---
+
+### 8.. Tampilan Saat Gagal
+![Gagal](https://github.com/user-attachments/assets/eeabf263-b217-44a4-8ef1-a0b1d3c0c11e)
+
+---
+
