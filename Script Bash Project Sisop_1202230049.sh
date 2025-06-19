@@ -30,7 +30,7 @@ while true; do
     case $pilihan in
         1)
             nama="${ungu}Mas Rendy${reset}"
-            echo -e "\n${cyan}Kehidupan Saat Ini:${reset} \nSEDANG MENUNGGU DIA KEMBALI..."
+            echo -e "\n${cyan}Kehidupan Saat Ini:${reset} \nMELIHAT DIA SAMA YANG LAIN... 😔"
             echo -e "\n${cyan}Selamat Datang $nama! ${cyan}Tanggal dan Waktu Saat Ini:${reset}"
             date +"%a %b %d %r WIB %Y"
             ;;
