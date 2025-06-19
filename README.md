@@ -5,7 +5,7 @@
 
 ---
 
-## 📌 Menu yang Dikerjakan
+##  Menu yang Dikerjakan
 1. Tampilkan Kehidupan Saat Ini  
 2. Tampilkan Daftar Direktori  
 3. Tampilkan Detail OS  
@@ -14,7 +14,7 @@
 
 ---
 
-## 🖼️ Dokumentasi Tampilan Menu
+##  Dokumentasi Tampilan Menu
 
 ### 1. Tampilan Utama Menu  
 ![Tampilan Utama](https://github.com/user-attachments/assets/56c4fce5-303b-4920-9a22-66d7865354aa)
