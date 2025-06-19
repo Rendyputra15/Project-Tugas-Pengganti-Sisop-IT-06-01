@@ -5,7 +5,8 @@
 
 ---
 
-##  Menu yang Dikerjakan
+## 📌 Menu yang Dikerjakan
+
 1. Tampilkan Kehidupan Saat Ini  
 2. Tampilkan Daftar Direktori  
 3. Tampilkan Detail OS  
@@ -47,12 +48,11 @@
 ---
 
 ### 7. Tampilan Saat Keluar Menu  
-![Keluar Menu]![keluar](https://github.com/user-attachments/assets/46452158-f503-40ed-a1ef-983e79d82822)
+![Keluar Menu](https://github.com/user-attachments/assets/46452158-f503-40ed-a1ef-983e79d82822)
 
 ---
 
-### 8.. Tampilan Saat Gagal
+### 8. Tampilan Saat Gagal  
 ![Gagal](https://github.com/user-attachments/assets/eeabf263-b217-44a4-8ef1-a0b1d3c0c11e)
 
 ---
-
