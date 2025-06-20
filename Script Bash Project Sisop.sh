@@ -115,7 +115,7 @@ while true; do
             ;;
     esac
 
-    echo -e "\n${hijau}Tekan Enter untuk kembali ke Masa Lalu...${reset}"
+    echo -e "\n${hijau}Tekan Enter untuk kembali ke Masa Lalu... ${reset}"
     read
     clear
     figlet "    MENU SISTEM    " | lolcat
