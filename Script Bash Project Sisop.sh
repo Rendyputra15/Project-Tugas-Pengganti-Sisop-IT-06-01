@@ -19,12 +19,11 @@ while true; do
     echo ""
     echo -e "${ungu}1. Tampilkan Kehidupan Saat Ini${reset}"
     echo -e "${ungu}2. Tampilkan Daftar Direktori${reset}"
-    echo -e "${ungu}3. Informasi Jaringan${reset}"
-    echo -e "${ungu}4. Tampilkan Detail OS${reset}"
-    echo -e "${ungu}5. Tampilkan Waktu Install Pertama OS${reset}"
-    echo -e "${ungu}6. Informasi User${reset}"
-    echo -e "${ungu}7. Keluar${reset}"
-    echo -ne "\n${ungu}Pilih opsi [1-7]: "
+    echo -e "${ungu}3. Tampilkan Detail OS${reset}"
+    echo -e "${ungu}4. Tampilkan Waktu Install Pertama OS${reset}"
+    echo -e "${ungu}5. Informasi User${reset}"
+    echo -e "${ungu}6. Keluar${reset}"
+    echo -ne "\n${ungu}Pilih opsi [1-6]:${reset} "
     read pilihan
 
     case $pilihan in
@@ -39,36 +38,8 @@ while true; do
             echo -e "\n${cyan}Daftar Direktori:${reset}"
             ls --color=always -l
             ;;
-            
+
         3)
-            ip_address=$(hostname -I | awk '{print $1}')
-            gateway=$(ip r | grep default | awk '{print $3}')
-            netmask=$(ip -o -f inet addr show | awk '/scope global/ {print $4}')
-            dns_server=$(grep "nameserver" /etc/resolv.conf | awk '{print $2}' | head -n 1)
-            ping -c 1 google.com &> /dev/null && koneksi="Tersambung ke internet." || koneksi="Tidak terhubung ke internet."
-            connection_info=$(nmcli -t -f DEVICE,TYPE,STATE,CONNECTION dev status)
-            lokasi=$(curl -s ipinfo.io | jq -r '.city + ", " + .region + ", " + .country')
-
-            echo -e "\n${cyan}Informasi Jaringan:${reset}"
-            echo -e "${hijau}Alamat IP Lokal${reset}  : $ip_address"
-            echo -e "${hijau}Gateway         ${reset} : $gateway"
-            echo -e "${hijau}Netmask         ${reset} : $netmask"
-            echo -e "${hijau}DNS Server(s)   ${reset} : $dns_server"
-
-            echo -e "\n${cyan}Status Koneksi ke Internet:${reset}"
-            echo -e "$koneksi"
-
-            echo -e "\n${cyan}Status Koneksi LAN/WIFI:${reset}"
-            printf "${biru}%-10s %-10s %-10s %-20s${reset}\n" "DEVICE" "TYPE" "STATE" "CONNECTION"
-            echo "$connection_info" | while IFS=: read -r dev type state conn; do
-                printf "%-10s %-10s %-10s %-20s\n" "$dev" "$type" "$state" "$conn"
-            done
-
-            echo -e "\n${cyan}Lokasi IP:${reset}"
-            echo -e "$lokasi"
-            ;;
-
-        4)
             echo -e "\n${cyan}Detail OS:${reset}"
             echo -e "${putih}Nama OS\t\t:${reset} $(lsb_release -d | cut -f2)"
             echo -e "${putih}Versi\t\t:${reset} $(lsb_release -r | cut -f2) ($(lsb_release -c | cut -f2))"
@@ -88,12 +59,12 @@ while true; do
             df -h | grep -E '^Filesystem|^/dev/'
             ;;
             
-        5)
+        4)
             echo -e "\n${cyan}Waktu OS Pertama Kali Diinstall:${reset}"
             sudo head -n 1 "/var/log/installer/cloud-init.log" 2>/dev/null
             ;;
             
-        6)
+        5)
             echo -e "\n${cyan}Informasi Pengguna Saat Ini:${reset}"
             echo -e "Username        : $(whoami)"
             echo -e "User ID         : $(id -u)"
@@ -103,7 +74,7 @@ while true; do
             echo -e "Home Directory  : $HOME"
             ;;
             
-        7)
+        6)
             echo -e "\n${hijau}+----------------+${reset}"
             echo -e "${hijau}| ${MerahBold}Makasih Yaa :)${reset} ${hijau}|${reset}"
             echo -e "${hijau}+----------------+${reset}"
@@ -115,7 +86,7 @@ while true; do
             ;;
     esac
 
-    echo -e "\n${hijau}Tekan Enter untuk kembali ke Masa Lalu... ${reset}"
+    echo -e "\n${hijau}Tekan Enter untuk kembali ke Masa Lalu...${reset}"
     read
     clear
     figlet "    MENU SISTEM    " | lolcat
