@@ -1,11 +1,11 @@
-# 📁 Dokumentasi Menu Sistem Bash
+# Dokumentasi Menu Sistem Bash
 
 **Nama:** Rendy Cahyono Putra  
 **NIM:** 1202230049  
 
 ---
 
-## 📌 Menu yang Dikerjakan
+## Menu yang Dikerjakan
 
 1. Tampilkan Kehidupan Saat Ini  
 2. Tampilkan Daftar Direktori  
